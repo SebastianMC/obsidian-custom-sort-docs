@@ -1,7 +1,6 @@
 # obsidian-custom-sort.github.io
+
 Documentation for obsidian-custom-sort plugin for Obsidian.md
-
-
 
 # Building the documentation
 
@@ -15,3 +14,15 @@ Using docker `squidfunk/mkdocs-material` instead of local installation
 - the command to build documentation with the above setup is, when invoked from the repository root folder is:
   - `obsidian-custom-sort-docs % docker run --rm -it -p 8000:8000 -v ${PWD}/src:/docs -v${PWD}/docs:/generated-site squidfunk/mkdocs-mate
 rial build --site-dir /generated-site`
+
+# Viewing the generated site in browser
+
+Simply open the `/docs/index.html` in local webserver or use live preview (below)
+
+## Live preview (useful for development)
+
+After issuing the command:
+
+`docker run --rm -it -p 8000:8000 -v ${PWD}/src:/docs squidfunk/mkdocs-material`
+
+the on-the-fly generated site is exposed at `http://localhost:8000`

@@ -1,3 +1,8 @@
 site_name: obsidian-custom-sort plugin to Obsidian.md
 theme:
   name: material
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+

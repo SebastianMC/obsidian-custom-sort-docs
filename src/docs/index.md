@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# obsidian-custom-sort documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This is a new home for documentation of [custom-sort](https://github.com/SebastianMC/obsidian-custom-sort) plugin to [Obsidian.md](https://)
 
-## Commands
+!!! warning "Work in progress"
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+    **The site is under construction**
 
-## Project layout
+    Until it is finished, the documentation entry point is the [README.md](https://github.com/SebastianMC/obsidian-custom-sort/blob/master/README.md) in the [github home](https://github.com/SebastianMC/obsidian-custom-sort) of the project
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
