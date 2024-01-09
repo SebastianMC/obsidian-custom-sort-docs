@@ -28,7 +28,7 @@ Using docker `squidfunk/mkdocs-material` instead of local installation
   - Github Pages expects this exact location to be the root of website to be published Github Pages
   - the docker container folder `/generated-site` is mapped onto the `/docs` local (repository) folder
 - the command to build documentation with the above setup is, when invoked from the repository root folder is:
-  - `obsidian-custom-sort-docs % docker run --rm -it -p 8000:8000 -v ${PWD}/src:/docs -v${PWD}/docs:/generated-site squidfunk/mkdocs-material build --site-dir /generated-site`
+  - `obsidian-custom-sort-docs % docker run --rm -it -v ${PWD}/src:/docs -v${PWD}/docs:/generated-site squidfunk/mkdocs-material build --site-dir /generated-site`
 
 # Viewing the generated site in browser
 
